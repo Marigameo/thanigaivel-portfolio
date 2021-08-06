@@ -1,3 +1,4 @@
+// get the required configurations from congif json file
 const {
   author,
   siteTitle,
@@ -9,6 +10,7 @@ const {
   colors,
 } = require(`./config`)
 
+// set the site meta informations
 module.exports = {
   siteMetadata: {
     author: author,
@@ -16,6 +18,7 @@ module.exports = {
     description: siteDescription,
     siteUrl: siteUrl,
   },
+  // here only we configure external plugins
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,

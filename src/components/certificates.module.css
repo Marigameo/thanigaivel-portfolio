@@ -1,0 +1,14 @@
+.card {
+  width: 300px;
+  background-color: rgb(246, 252, 254);
+  border: 1px solid rgb(135, 135, 235);
+  padding: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cardsContainer {
+  padding: 2rem 10.5rem;
+  display: flex;
+  justify-content: space-around;
+}
